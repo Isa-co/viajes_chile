@@ -74,10 +74,47 @@
   body {
     font-family: 'Roboto', sans-serif;
     margin-top: 56px;
-    background-color: #0d0e0e00;
+    background-color: black !important;
     padding: 0;
     margin: 0;
 }
-  
 
+.nav{
+  font-family: Roboto;
+}
+
+.nav-link{
+  color: white;
+
+}
+
+/*.card{
+  background-color:aquamarine;
+  align-items: justify;
+
+}
+.container-card{
+  align-items: center;
+}*/
+
+.container{
+  padding-top: 7rem;
+  background-color: black;
+}
+
+.barra-azul{
+  background-color: rgba(0, 166, 255)
+}
+
+.footer{
+  padding-left: 5rem;
+  padding-top: 0.5rem;
+  padding-right: 5rem;
+  display: flex;
+  gap: 106px;
   
+}
+
+.icons-item{
+  text-align:right;
+}
