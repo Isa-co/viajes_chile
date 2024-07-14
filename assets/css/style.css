@@ -1,89 +1,89 @@
 .roboto-thin {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-  }
-  
-  .roboto-light {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .roboto-regular {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .roboto-medium {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .roboto-bold {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .roboto-black {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-  
-  .roboto-thin-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: italic;
-  }
-  
-  .roboto-light-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .roboto-regular-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .roboto-medium-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-  }
-  
-  .roboto-bold-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
-  .roboto-black-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-style: italic;
-  }
-
-
-  body {
-    font-family: 'Roboto', sans-serif;
-    margin-top: 56px;
-    background-color: black !important;
-    padding: 0;
-    margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
 }
 
-.nav{
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 56px;
+  background-color: black !important;
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
   font-family: Roboto;
 }
 
-.nav-link{
+.nav-link {
   color: white;
 
 }
@@ -97,24 +97,77 @@
   align-items: center;
 }*/
 
-.container{
+
+
+
+
+.container {
   padding-top: 7rem;
   background-color: black;
+  padding-bottom: 3rem;
 }
 
-.barra-azul{
+.barra-azul {
   background-color: rgba(0, 166, 255)
 }
 
-.footer{
-  padding-left: 5rem;
+.footer {
+  background-color: rgba(0, 166, 255);
+  padding-left: 4rem;
+
+
+
+    /* padding-left: 5rem;
   padding-top: 0.5rem;
   padding-right: 5rem;
-  display: flex;
-  gap: 106px;
-  
+  display: grid;
+  gap: 106px;*/
+
 }
 
-.icons-item{
+/*.icons-item{
   text-align:right;
+  float: right;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+
+}*/
+
+
+.redes ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 45rem;
+  display:flex;
+  justify-content: flex-end;
+  
+
+}
+
+
+.redes li a {
+  display: inline-block;
+  margin: 0.5rem;
+  font-size: 1.2rem;
+  transition: transform 0.2s ease;
+  color: white;
+ 
+
+}
+
+/*.redes li a:hover {
+  transform: translateY(-2px);
+}*/
+
+.footer-content {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+
+.img-card {
+  height: 220px;
 }

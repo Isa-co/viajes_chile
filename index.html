@@ -27,7 +27,7 @@
     <script src="assets/js/script.js"></script>
 
     <!--JQuery-->
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
 
 </head>
@@ -87,12 +87,21 @@
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
+            <span class="carousel-control-prev-icon" aria-hidden="true" data-bs-placement="bottom"
+                data-bs-toggle="tooltip" title="Fotografía Anterior" data-bs-custom-class="custom-tooltip test">
+            </span>
+
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
+            <span class="carousel-control-next-icon" aria-hidden="true" data-bs-placement="bottom"
+                data-bs-toggle="tooltip" title="Siguiente Fotografía" data-bs-custom-class="custom-tooltip test">
+
+                <span class="visually-hidden">Nex</span>
+
+
+
+            </span>
+
         </button>
     </div>
 
@@ -206,18 +215,14 @@
                 </div>
 
 
+
                 <div class="container card">
                     <div class="d-flex justify-content-center">
-                        <!--<div class="container-fluid">
-                            <hr class="border border-1 custom-border my-4 mx-auto">
-                        </div>-->
                         <div class="row justify-content-center">
-
-                            <!--<div class="container-fluid">-->
 
                             <div class="col">
                                 <div class="card">
-                                    <img src="assets/img/card1.jpg" class="card-img-top" alt="Fiordo">
+                                    <img src="assets/img/card1.jpg" class="card-img-top img-card" alt="Fiordo">
                                     <div class="card-body">
                                         <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
                                         <p class="card-text">Lorem ipsum dolor sit amet consectetur
@@ -232,7 +237,7 @@
 
                             <div class="col">
                                 <div class="card">
-                                    <img src="assets/img/card2.jpg" class="card-img-top" alt="Lago y montaña">
+                                    <img src="assets/img/card2.jpg" class="card-img-top img-card" alt="Lago y montaña">
                                     <div class="card-body">
                                         <h5 class="card-title">Consectetur adipiscing elit</h5>
                                         <p class="card-text">Lorem ipsum dolor sit amet consectetur
@@ -245,7 +250,7 @@
                             </div>
                             <div class="col">
                                 <div class="card">
-                                    <img src="assets/img/card3.jpg" class="card-img-top" alt="Salar">
+                                    <img src="assets/img/card3.jpg" class="card-img-top img-card" alt="Salar">
                                     <div class="card-body">
                                         <h5 class="card-title">Sed do euismod
                                             tempor incididunt ut labore</h5>
@@ -259,7 +264,7 @@
                             </div>
                             <div class="col">
                                 <div class="card">
-                                    <img src="assets/img/card4.jpg" class="card-img-top" alt="Bosque">
+                                    <img src="assets/img/card4.jpg" class="card-img-top img-card" alt="Bosque">
                                     <div class="card-body">
                                         <h5 class="card-title">Ut enim ad minim veniam</h5>
                                         <p class="card-text">Lorem ipsum dolor sit amet consectetur
@@ -278,7 +283,7 @@
         </section>
 
 
-        <!-- Formulario--><!--floatingTextarea"-->
+        <!-- Formulario-->
         <section class="container text-center text-white">
             <h2>CONTACTO</h2>
 
@@ -293,68 +298,43 @@
                         <label for="exampleInputEmail1" class="form-label">Asunto</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                     </div>
-                    <div class="form-floating">
-                        <textarea class="form-control" placeholder="Leave a comment here"
-                            id="floatingTextarea"></textarea>
-                        <label for="exampleInputEmail" class="form-label">Mensaje</label>
+
+                    <div class="mb-3">
+                        <div class="text-start">
+                            <label for="messageFormControlInput"
+                                class="raleway-regular form-label text-white ">Mensaje</label>
+                        </div>
+                        <textarea class="form-control" id="message" rows="5"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <div class="text-start">
+                        <button type="submit" class="raleway-regular btn btn-info text-white btn-send">Enviar</button>
+                    </div>
+
                 </form>
             </div>
         </section>
 
         <!-- Footer -->
-        <footer class="footer barra-azul">
-         
-                <div class="container-fluid text-white">
-                    <h6>VIAJES CHILE</h6>
+        <footer class="footer barra-azul text-white">
 
-                    <section class="icons-section">
+            <div class="footer-content d-flex text-white">
 
-                        <div class="icons">
+                <spam class="Roboto fs-4">VIAJES CHILE</spam>
 
-                            <div class="icons-item">
-                                <i class="fa-brands fa-github"></i>
-                                <i class="fa-brands fa-linkedin"></i>
-                                <i class="fa-brands fa-square-twitter"></i>
-                                <i class="fa-brands fa-square-facebook"></i>
-
-                            </div>
+                <nav class="redes">
 
 
-<!--
-                            <div class="icons">
+                    <ul class="list-iconos">
 
-                                <div class="icons-item">
-                                    <i class="fa-brands fa-linkedin"></i>
+                        <li><a href="#" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
 
-                                </div>
+                    </ul>
+                </nav>
 
-
-
-
-                                <div class="icons">
-
-                                    <div class="icons-item">
-                                        <i class="fa-brands fa-square-twitter"></i>
-
-                                    </div>
-
-
-
-
-                                    <div class="icons">
-
-                                        <div class="icons-item">
-                                            <i class="fa-brands fa-square-facebook"></i>
-
-                                        </div>-->
-
-
-
-                                    </div>
-
-                                </div>
+            </div>
         </footer>
 
 
