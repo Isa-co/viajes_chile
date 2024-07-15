@@ -171,3 +171,11 @@ body {
 .img-card {
   height: 220px;
 }
+
+.card{
+  width: 100%;
+}
+
+.about{
+  padding-bottom: 2rem;
+}

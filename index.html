@@ -56,13 +56,13 @@
                             <a class="nav-link releway-light text white" aria-current="page" href="#">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link releway-light text white" href="#">Quienes somos</a>
+                            <a class="nav-link releway-light text white" href="#QUIENES SOMOS">Quienes somos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link releway-light text white" href="#">Destacados</a>
+                            <a class="nav-link releway-light text white" href="#DESTACADOS">Destacados</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link releway-light text white" href="#">Contacto</a>
+                            <a class="nav-link releway-light text white" href="#CONTACTO">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -97,11 +97,7 @@
                 data-bs-toggle="tooltip" title="Siguiente Fotografía" data-bs-custom-class="custom-tooltip test">
 
                 <span class="visually-hidden">Nex</span>
-
-
-
             </span>
-
         </button>
     </div>
 
@@ -110,9 +106,10 @@
         <section id="about" class="pt-5 px-5 pb-5 d-none d-md-block">
             <div class="container-fluid px-5">
                 <div class="row">
-                    <div class="col-12 text-center">
+                    <div class="col-12 text-center"> 
+                        <div class="main" id="QUIENES SOMOS">
                         <span class="raleway-regular text-white fs-3">¿QUIÉNES SOMOS?</span>
-                        <hr class="border border-1 custom-border my-4 w-75 mx-auto">
+                     <!--   <hr class="border border-1 custom-border my-4 w-75 mx-auto">-->
                     </div>
                 </div>
                 <div class="row">
@@ -138,7 +135,6 @@
                                     interdum
                                     nibh luctus. Nam ac orci id neque posuere aliquam.
                                 </p>
-
                             </span>
                         </div>
                     </div>
@@ -149,11 +145,7 @@
                                 <i class="fa-solid fa-mountain fa-2x" data-bs-placement="bottom"
                                     data-bs-toggle="tooltip" title="montaña"
                                     data-bs-custom-class="custom-tooltip test"></i>
-
-
-
                             </div>
-
                         </div>
                         <div class="row">
                             <span class="releway-light text-white">
@@ -171,7 +163,6 @@
                                     interdum
                                     nibh luctus. Nam ac orci id neque posuere aliquam.
                                 </p>
-
                             </span>
                         </div>
                     </div>
@@ -197,9 +188,9 @@
                                     interdum
                                     nibh luctus. Nam ac orci id neque posuere aliquam.
                                 </p>
-
                             </span>
                         </div>
+                    </div>
                     </div>
         </section>
 
@@ -210,18 +201,17 @@
             <div class="container-fluid px-5">
                 <div class="row">
                     <div class="col-12 text-center">
+                        <div class= "main" id="DESTACADOS">
                         <span class="raleway-regular text-white fs-3">DESTACADOS</span>
                     </div>
                 </div>
-
-
 
                 <div class="container card">
                     <div class="d-flex justify-content-center">
                         <div class="row justify-content-center">
 
                             <div class="col">
-                                <div class="card">
+                                <div class="card h-100">
                                     <img src="assets/img/card1.jpg" class="card-img-top img-card" alt="Fiordo">
                                     <div class="card-body">
                                         <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
@@ -236,7 +226,7 @@
 
 
                             <div class="col">
-                                <div class="card">
+                                <div class="card h-100">
                                     <img src="assets/img/card2.jpg" class="card-img-top img-card" alt="Lago y montaña">
                                     <div class="card-body">
                                         <h5 class="card-title">Consectetur adipiscing elit</h5>
@@ -249,7 +239,7 @@
                                 </div>
                             </div>
                             <div class="col">
-                                <div class="card">
+                                <div class="card h-100">
                                     <img src="assets/img/card3.jpg" class="card-img-top img-card" alt="Salar">
                                     <div class="card-body">
                                         <h5 class="card-title">Sed do euismod
@@ -263,7 +253,7 @@
                                 </div>
                             </div>
                             <div class="col">
-                                <div class="card">
+                                <div class="card h-100">
                                     <img src="assets/img/card4.jpg" class="card-img-top img-card" alt="Bosque">
                                     <div class="card-body">
                                         <h5 class="card-title">Ut enim ad minim veniam</h5>
@@ -273,9 +263,9 @@
                                             do euismod
                                             tempor incididunt ut labore et dolore magna aliqua.</p>
                                     </div>
+                                    </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -285,15 +275,20 @@
 
         <!-- Formulario-->
         <section class="container text-center text-white">
-            <h2>CONTACTO</h2>
+            <div class="main" id="CONTACTO">
+
+             <h2>CONTACTO</h2>
+            <div="CONTACTO"></div>
 
             <div class="text-start">
                 <form>
+
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Nombre</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
 
                     </div>
+
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Asunto</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -306,23 +301,20 @@
                         </div>
                         <textarea class="form-control" id="message" rows="5"></textarea>
                     </div>
+
                     <div class="text-start">
                         <button type="submit" class="raleway-regular btn btn-info text-white btn-send">Enviar</button>
                     </div>
-
                 </form>
+            </div>
             </div>
         </section>
 
         <!-- Footer -->
         <footer class="footer barra-azul text-white">
-
             <div class="footer-content d-flex text-white">
-
                 <spam class="Roboto fs-4">VIAJES CHILE</spam>
-
                 <nav class="redes">
-
 
                     <ul class="list-iconos">
 
@@ -330,15 +322,15 @@
                         <li><a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
                         <li><a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
                         <li><a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
-
                     </ul>
                 </nav>
-
             </div>
         </footer>
 
 
 
+          <!--JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <!-- Bootstrap -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
